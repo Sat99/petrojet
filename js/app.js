@@ -838,7 +838,7 @@ var App = App || {};
             : t.news.singleNews();
       },
       init: function (e) {
-        console.log("news working"),
+        // console.log("news working"),
           $body.hasClass("page-template-temp-news") && t.common.loadMore(e);
       },
       bindingEvents: function () {
