@@ -3,45 +3,40 @@
  * Copyright 2011-2016 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-@font-face {
-  font-family: "MerriweatherSans-Bold";
-  src: url("../fonts/MerriweatherSans-Bold.eot");
-  src: local("☺"), url("../fonts/MerriweatherSans-Bold.ttf") format("truetype");
-
+ @font-face {
+  font-family: "CircularStd";
+  src: local("☺"),
+    url("/fonts/CircularStd-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
-  font-family: "MerriweatherSans-Regular";
-  src: url("../fonts/MerriweatherSans-Regular.eot");
+  font-family: "CircularStd";
   src: local("☺"),
-    url("../fonts/MerriweatherSans-Regular.ttf") format("truetype");
-
+    url("/fonts/Circular-Std-Medium.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
 }
 @font-face {
-  font-family: "MerriweatherSans-Medium";
-  src: url("../fonts/MerriweatherSans-Medium.eot");
+  font-family: "CircularStd-Book";
   src: local("☺"),
-    url("../fonts/MerriweatherSans-Medium.ttf") format("truetype");
-
+    url("/fonts/Circular-Std-Book.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: "Montserrat-ExtraBold";
-  src: url("../fonts/Montserrat-ExtraBold.eot");
-  src: local("☺"), url("../fonts/Montserrat-ExtraBold.woff") format("woff"),
-    url("../fonts/Montserrat-ExtraBold.ttf") format("truetype");
-
-  font-weight: 700;
+  font-family: "ITC-Avant-Garde-Gothic";
+  src: local("☺"),
+    url("/fonts/ITC Avant Garde Gothic LT Bold.ttf")
+      format("truetype");
+      font-weight: 700;
   font-style: normal;
 }
 @font-face {
-  font-family: "Montserrat";
-  src: url("../fonts/Montserrat-SemiBold.eot");
-  src: url("../fonts/Montserrat-SemiBold.ttf") format("truetype");
+  font-family: "galano_grotesque_alt_demobold";
+  src: 
+    url("/fonts/GalanoGrotesqueAltDEMO-Bold.ttf")
+      format("truetype");
   font-weight: normal;
   font-style: normal;
 } /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
@@ -8448,7 +8443,7 @@ button.close {
 }
 body {
   position: relative;
-  font-family: "MerriweatherSans-Medium", sans-serif;
+  font-family: "CircularStd-Book", sans-serif;
 }
 @media only screen and (max-width: 767px) {
   body {
@@ -8461,7 +8456,7 @@ body {
   }
 }
 h2 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "galano_grotesque_alt_demobold", sans-serif;
 }
 .lead-view {
   height: 80vh;
@@ -8661,7 +8656,7 @@ h2 {
   -o-border-radius: 0px;
   border-radius: 0px;
   border: 2px solid #212121;
-  font-family: "MerriweatherSans-Medium", sans-serif;
+  font-family: "CircularStd", sans-serif;
   color: #464646;
   font-weight: 700;
   padding-left: 26px;
@@ -8702,7 +8697,7 @@ h2 {
 }
 .load-more-btn {
   display: inline-block;
-  font-family: "MerriweatherSans-Medium", sans-serif;
+  font-family: "CircularStd", sans-serif;
   font-size: 15px;
   line-height: 21px;
   text-transform: uppercase;
@@ -8812,7 +8807,7 @@ h2 {
   padding-right: 0;
   padding-left: 13px;
   text-transform: none;
-  font-family: "Montserrat", sans-serif;
+  font-family: "galano_grotesque_alt_demobold", sans-serif;
   line-height: 25px;
 }
 .back-link.back-link-space {
@@ -8873,7 +8868,7 @@ h2 {
 .read-more {
   padding-right: 30px;
   text-transform: uppercase;
-  font-family: "MerriweatherSans-Medium", sans-serif;
+  font-family: "CircularStd", sans-serif;
   font-size: 15px;
 }
 .read-more:not(.pl-rm):before {
@@ -8949,7 +8944,7 @@ h2 {
   transform: translate(7px, -50%);
 }
 .lead-title {
-  font-family: "Montserrat", sans-serif;
+  font-family: "ITC-Avant-Garde-Gothic", sans-serif;
   font-weight: 700;
 }
 .lead-title .sma-revealer {
@@ -9047,7 +9042,7 @@ h2 {
 .peoples-list .person-name {
   position: relative;
   margin-top: 0px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "galano_grotesque_alt_demobold", sans-serif;
 }
 .peoples-list .person-name:after {
   content: "";
@@ -9083,7 +9078,7 @@ h2 {
   font-size: 17px;
   line-height: 23px;
   color: #464646;
-  font-family: "MerriweatherSans", sans-serif;
+  font-family: "CircularStd-Book", sans-serif;
 }
 .peoples-list .person-image {
   position: relative;
@@ -9119,7 +9114,7 @@ h2 {
   position: relative;
   display: block;
   padding-bottom: 12px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "ITC-Avant-Garde-Gothic", sans-serif;
   font-size: 27px;
   font-weight: 700;
   color: #000;
@@ -9168,7 +9163,7 @@ h2 {
 .base-tabs-content .pane-title,
 .base-tabs-content .main-section-title {
   margin-bottom: 30px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "galano_grotesque_alt_demobold", sans-serif;
   font-size: 26px;
   font-weight: 700;
 }
@@ -9785,7 +9780,7 @@ button.swiper-pagination-bullet {
 .swiper-scrollbar {
   border-radius: 10px;
   position: relative;
-  -ms-touch-action: none;
+  -ms-touch-action:none;
   background: rgba(0, 0, 0, 0.1);
 }
 .swiper-container-horizontal > .swiper-scrollbar {
@@ -10004,7 +9999,7 @@ body {
   left: 0px;
   z-index: 998;
   height: 100vh;
-  font-family: "Montserrat", sans-serif;
+  font-family: "galano_grotesque_alt_demobold", sans-serif;
   -webkit-transition: -webkit-transform 0.3s
     cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: transform 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -10296,6 +10291,15 @@ body {
   border: 1px solid #222222;
   resize: none;
 }
+.wpcf7 .wpcf7-file {
+  height: 195px;
+  padding: 45px;
+  text-indent: -99999px;
+  position: relative;
+  display: block;
+  color: #fff;
+  opacity: 0;
+}
 @media only screen and (max-width: 767px) {
   .wpcf7 .wpcf7-file {
     margin-bottom: 20px;
@@ -10461,7 +10465,7 @@ body {
   margin-right: 18px;
   font-size: 13px;
   color: #fff;
-  font-family: "MerriweatherSans-Bold", sans-serif;
+  font-family: "CircularStd", sans-serif;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -10707,7 +10711,7 @@ body.nav-down #page-wrapper:not(.show-menu) #site-header {
   }
 }
 .lead-view__title h1 {
-  font-family: "Montserrat-ExtraBold", sans-serif;
+  font-family: "ITC-Avant-Garde-Gothic", sans-serif;
   font-weight: 700;
   line-height: 1.18;
   color: #fff;
@@ -10757,13 +10761,12 @@ body.nav-down #page-wrapper:not(.show-menu) #site-header {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(164, 239, 155, 0.94);
+  background: rgba(235, 86, 109, 0.94);
   background: linear-gradient(
     180deg,
-    rgba(86, 235, 96, 0.94) 0%,
-    rgba(128, 252, 167, 0.94) 100%
+    rgba(235, 86, 109, 0.94) 0%,
+    rgba(212, 43, 69, 0.94) 100%
   );
-	
 }
 .lead-view__main-video {
   position: fixed;
@@ -10856,7 +10859,7 @@ body.nav-down #page-wrapper:not(.show-menu) #site-header {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.55);
-  z-index: -1;
+  z-index: 5;
 }
 .lead-view__video video {
   position: absolute;
@@ -10929,7 +10932,7 @@ body.nav-down #page-wrapper:not(.show-menu) #site-header {
   bottom: 0px;
   left: 0px;
   right: 0px;
-  font-family: "MerriweatherSans-Bold", sans-serif;
+  font-family: "CircularStd-Book", sans-serif;
   letter-spacing: 2px;
   color: #fff;
   text-transform: uppercase;
@@ -11099,7 +11102,7 @@ body.nav-down #page-wrapper:not(.show-menu) #site-header {
   flex-wrap: wrap;
 }
 .intro-section a {
-  font-family: "MerriweatherSans-Medium", sans-serif;
+  font-family: "CircularStd-Book", sans-serif;
   text-transform: uppercase;
   font-size: 14px;
   letter-spacing: 1px;
@@ -11118,7 +11121,7 @@ body.nav-down #page-wrapper:not(.show-menu) #site-header {
   }
 }
 .intro-section .section-title .small-title {
-  font-family: "MerriweatherSans-Medium", sans-serif;
+  font-family: "CircularStd-Book", sans-serif;
   font-size: 14px;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -11127,7 +11130,7 @@ body.nav-down #page-wrapper:not(.show-menu) #site-header {
   line-height: 70px;
 }
 .intro-section .section-title .big-title {
-  font-family: "Montserrat", sans-serif;
+  font-family: "ITC-Avant-Garde-Gothic", sans-serif;
 }
 @media only screen and (min-width: 768px) {
   .intro-section .inner-content {
@@ -11197,7 +11200,7 @@ body.nav-down #page-wrapper:not(.show-menu) #site-header {
   width: 74.5%;
 }
 .projects-section .section-title span {
-  font-family: "Montserrat", sans-serif;
+  font-family: "ITC-Avant-Garde-Gothic", sans-serif;
 }
 @media only screen and (min-width: 768px) {
   .projects-section .section-title.t-line {
@@ -11227,7 +11230,7 @@ body.nav-down #page-wrapper:not(.show-menu) #site-header {
   }
 }
 .projects-section .inner-content .section-title {
-  font-family: "MerriweatherSans-Medium", sans-serif;
+  font-family: "CircularStd", sans-serif;
   line-height: 1.2;
   color: #464646;
   width: 100%;
@@ -11355,7 +11358,7 @@ body.nav-down #page-wrapper:not(.show-menu) #site-header {
   margin: 0 auto;
 }
 .section-3 .section-title span {
-  font-family: "Montserrat", sans-serif;
+  font-family: "ITC-Avant-Garde-Gothic", sans-serif;
 }
 .home-news {
   width: 100%;
@@ -11434,7 +11437,7 @@ body.nav-down #page-wrapper:not(.show-menu) #site-header {
   margin-top: 10px;
 }
 .home-news__title {
-  font-family: "MerriweatherSans-Bold", sans-serif;
+  font-family: "CircularStd", sans-serif;
   text-transform: none;
   font-size: 18px;
   color: #464646;
@@ -11470,7 +11473,7 @@ body.nav-down #page-wrapper:not(.show-menu) #site-header {
   margin: 0 auto;
 }
 .section-4 .section-title span {
-  font-family: "Montserrat", sans-serif;
+  font-family: "ITC-Avant-Garde-Gothic", sans-serif;
 }
 .home-news {
   width: 100%;
@@ -11639,12 +11642,12 @@ body.nav-down #page-wrapper:not(.show-menu) #site-header {
   transform: translateX(-5px);
 }
 .home-testimonial__name {
-  font-family: "Montserrat", sans-serif;
+  font-family: "ITC-Avant-Garde-Gothic", sans-serif;
   font-size: 29px;
   line-height: 1.2;
 }
 .home-testimonial__title {
-  font-family: "MerriweatherSans-Medium", sans-serif;
+  font-family: "CircularStd", sans-serif;
   font-size: 18px;
 }
 .home-testimonial__title::after {
@@ -11656,7 +11659,7 @@ body.nav-down #page-wrapper:not(.show-menu) #site-header {
   margin: 20px 0 15px;
 }
 .home-testimonial__quote {
-  font-family: "MerriweatherSans", sans-serif;
+  font-family: "CircularStd-Book", sans-serif;
   margin-bottom: 0;
 }
 .header-grid-btn,
@@ -11697,37 +11700,8 @@ body.nav-down #page-wrapper:not(.show-menu) #site-header {
   transform: translateX(0px);
   opacity: 1;
 }
-@media (max-width: 767px) {
-  .home .vertical-slider .custom-bullets {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-}
-.home .vertical-slider .custom-bullets .pagination-item {
-  width: auto;
-  text-align: left;
-  max-width: 180px;
-}
-@media (max-width: 767px) {
-  .home .vertical-slider .custom-bullets .pagination-item {
-    width: auto;
-    margin-right: 0;
-    margin-bottom: 16px;
-    text-align: center;
-  }
-  .home .vertical-slider .custom-bullets .pagination-item a {
-    position: relative;
-    transform: none;
-    top: 0;
-    left: 0;
-    padding: 0 10px;
-    margin-bottom: 10px;
-  }
-}
 #post-pagination {
-  font-family: "Montserrat", sans-serif;
+  font-family: "galano_grotesque_alt_demobold", sans-serif;
   list-style: none;
   margin: 0 -15px;
   padding: 0;
@@ -12344,7 +12318,7 @@ body.nav-down #page-wrapper:not(.show-menu) #site-header {
   align-items: flex-end;
   bottom: 0;
   color: #ffffff;
-  font-family: "Montserrat", sans-serif;
+  font-family: "galano_grotesque_alt_demobold", sans-serif;
   left: 0;
   position: absolute;
   right: 0;
@@ -12596,7 +12570,7 @@ body.nav-down #page-wrapper:not(.show-menu) #site-header {
   }
 }
 .project-lead-nav .nav-item {
-  font-family: "Montserrat", sans-serif;
+  font-family: "galano_grotesque_alt_demobold", sans-serif;
   font-size: 18px;
   line-height: 1;
 }
@@ -13326,7 +13300,7 @@ body.nav-down #page-wrapper:not(.show-menu) #site-header {
   .news-item
   .project-type {
   font-weight: 700;
-  font-family: "Montserrat", sans-serif;
+  font-family: "galano_grotesque_alt_demobold", sans-serif;
 }
 @media screen and (max-width: 1024px) {
   .page-template-temp-project-archive
@@ -13455,7 +13429,7 @@ body.page-template-temp-sectors .sectors-list .collapse-heading a {
 }
 body.page-template-temp-sectors .sectors-list .collapse-heading a:hover,
 body.page-template-temp-sectors .sectors-list .collapse-heading a:focus {
-  outeline: none;
+  outline: none;
   text-decoration: none;
 }
 body.page-template-temp-sectors .sectors-list .sector-text {
@@ -13640,7 +13614,7 @@ body.page-template-temp-about .owners-list .image {
   background-position: center center;
 }
 body.page-template-temp-about #about-lead-info h1 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "galano_grotesque_alt_demobold", sans-serif;
 }
 @media only screen and (min-width: 768px) {
   body.page-template-temp-about .lead-section {
@@ -13913,7 +13887,7 @@ body.page-template-temp-about .lead-section .vslide-holder {
 }
 .vertical-slider #testimonial-slider .num-slide,
 .vertical-slider #testimonial-slider .title {
-  font-family: "Montserrat-ExtraBold", sans-serif;
+  font-family: "ITC-Avant-Garde-Gothic", sans-serif;
 }
 .vertical-slider #testimonial-slider .title {
   margin-top: 0;
@@ -13956,7 +13930,7 @@ body.page-template-temp-about .lead-section .vslide-holder {
   width: 107px;
 }
 .vertical-slider .custom-bullets {
-  font-family: "Montserrat-ExtraBold", sans-serif;
+  font-family: "ITC-Avant-Garde-Gothic", sans-serif;
   list-style: none;
   margin: 0;
   overflow: hidden;
@@ -14018,7 +13992,7 @@ body.page-template-temp-about .lead-section .vslide-holder {
 }
 .vertical-slider .custom-bullets a:hover,
 .vertical-slider .custom-bullets a:focus {
-  outeline: none;
+  outline: none;
   text-decoration: none;
 }
 .vertical-slider .custom-bullets .pagination-item {
@@ -14197,7 +14171,7 @@ body.page-template-temp-project-archive .news-list > li .category-list {
 }
 body.page-template-temp-news .news-list > li .category-item,
 body.page-template-temp-project-archive .news-list > li .category-item {
-  font-family: "Montserrat", sans-serif;
+  font-family: "galano_grotesque_alt_demobold", sans-serif;
   font-size: 13px;
   text-transform: uppercase;
   color: #fff;
@@ -14218,7 +14192,7 @@ body.page-template-temp-project-archive .news-list > li .category-item {
 }
 body.page-template-temp-news .news-list > li .title,
 body.page-template-temp-project-archive .news-list > li .title {
-  font-family: "Montserrat", sans-serif;
+  font-family: "galano_grotesque_alt_demobold", sans-serif;
   color: #fff;
   margin: 0;
   -webkit-transition: all 0.3s ease-out;
@@ -14509,7 +14483,7 @@ body.page-template-temp-project-archive .news-filter-label {
 }
 body.page-template-temp-news #news-filter,
 body.page-template-temp-project-archive #news-filter {
-  font-family: "MerriweatherSans-Medium", sans-serif;
+  font-family: "CircularStd", sans-serif;
 }
 @media only screen and (min-width: 768px) {
   body.page-template-temp-news #news-filter,
@@ -14750,7 +14724,7 @@ body.page-template-temp-project-archive .load-more-btn:focus {
   }
 }
 body.single-news .lead-view {
-  font-family: "Montserrat", sans-serif;
+  font-family: "galano_grotesque_alt_demobold", sans-serif;
 }
 body.single-news .lead-view .lead-title {
   font-size: 75px;
@@ -14789,7 +14763,7 @@ body.single-news .lead-view .lead-title {
 }
 body.single-news .article-aside {
   padding-right: 5%;
-  font-family: "Montserrat", sans-serif;
+  font-family: "galano_grotesque_alt_demobold", sans-serif;
 }
 @media only screen and (min-width: 768px) {
   body.single-news .article-aside {
@@ -14824,7 +14798,7 @@ body.single-news .article-content h1:not(.section-title),
 body.single-news .article-content h2:not(.section-title),
 body.single-news .article-content h3:not(.section-title),
 body.single-news .article-content h4:not(.section-title) {
-  font-family: "MerriweatherSans-Medium", sans-serif;
+  font-family: "CircularStd", sans-serif;
 }
 @media only screen and (min-width: 768px) {
   body.single-news .article-content h1:not(.section-title),
@@ -15310,7 +15284,7 @@ body.single-careers .career-content .section-label {
   font-size: 18px;
   line-height: 24px;
   font-weight: 700;
-  font-family: "Montserrat", sans-serif;
+  font-family: "galano_grotesque_alt_demobold", sans-serif;
   margin: 0 0 5px;
 }
 body.single-careers .career-content .social-share-title {
@@ -15318,7 +15292,7 @@ body.single-careers .career-content .social-share-title {
   margin: 0 15px 0 0;
   line-height: 21px;
   font-weight: 700;
-  font-family: "Montserrat", sans-serif;
+  font-family: "galano_grotesque_alt_demobold", sans-serif;
   text-transform: uppercase;
 }
 body.single-careers .career-content .social-share-content {
@@ -15404,7 +15378,7 @@ body.single-careers #careers-form-wrapper .mail-sent-text h3 {
   color: #d42b45;
   font-size: 30px;
   line-height: 33px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "galano_grotesque_alt_demobold", sans-serif;
 }
 body.single-careers #careers-form-wrapper .mail-sent-text p {
   font-size: 27px;
@@ -15437,12 +15411,6 @@ body.page-template-temp-contact .contact-content .page-content {
     padding-bottom: 46px;
     padding-right: 0;
   }
-}
-body.page-template-temp-contact .cta-group {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-items: flex-start;
 }
 body.page-template-temp-contact .contact-form-container {
   position: relative;
@@ -15658,92 +15626,4 @@ html.msie .vertical-slider #testimonial-slider .slider-content {
 html.msie body.page-template-temp-news .news-list > li .news-item:hover,
 html.msie body.page-template-temp-news .news-list > li .news-item:focus {
   color: #fff;
-}
-
-.addtoany_content {
-  clear: both;
-  margin: 16px auto;
-}
-.addtoany_header {
-  margin: 0 0 16px;
-}
-.addtoany_list {
-  display: inline;
-  line-height: 16px;
-}
-.addtoany_list a,
-.widget .addtoany_list a {
-  border: 0;
-  box-shadow: none;
-  display: inline-block;
-  font-size: 16px;
-  padding: 0 4px;
-  vertical-align: middle;
-}
-.addtoany_list a img {
-  border: 0;
-  display: inline-block;
-  opacity: 1;
-  overflow: hidden;
-  vertical-align: baseline;
-}
-.addtoany_list a span {
-  display: inline-block;
-  float: none;
-}
-.addtoany_list.a2a_kit_size_32 a {
-  font-size: 32px;
-}
-.addtoany_list.a2a_kit_size_32 a:not(.addtoany_special_service) > span {
-  height: 32px;
-  line-height: 32px;
-  width: 32px;
-}
-.addtoany_list a:not(.addtoany_special_service) > span {
-  border-radius: 4px;
-  display: inline-block;
-  opacity: 1;
-}
-.addtoany_list a .a2a_count {
-  position: relative;
-  vertical-align: top;
-}
-.site .a2a_kit.addtoany_list a:focus,
-.addtoany_list a:hover,
-.widget .addtoany_list a:hover {
-  background: none;
-  border: 0;
-  box-shadow: none;
-}
-.addtoany_list a:hover img,
-.addtoany_list a:hover span {
-  opacity: 0.7;
-}
-.addtoany_list a.addtoany_special_service:hover img,
-.addtoany_list a.addtoany_special_service:hover span {
-  opacity: 1;
-}
-.addtoany_special_service {
-  display: inline-block;
-  vertical-align: middle;
-}
-.addtoany_special_service a,
-.addtoany_special_service div,
-.addtoany_special_service div.fb_iframe_widget,
-.addtoany_special_service iframe,
-.addtoany_special_service span {
-  margin: 0;
-  vertical-align: baseline !important;
-}
-.addtoany_special_service iframe {
-  display: inline;
-  max-width: none;
-}
-a.addtoany_share.addtoany_no_icon span.a2a_img_text {
-  display: none;
-}
-a.addtoany_share img {
-  border: 0;
-  width: auto;
-  height: auto;
 }
