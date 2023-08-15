@@ -40,6 +40,16 @@
   font-weight: normal;
   font-style: normal;
 } /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+@font-face {
+  font-family: "Poppins-Medium";
+  src: url("../fonts/Poppins-Medium.eot");
+  src: local("☺"),
+ url("../fonts/Poppins-Medium.ttf")
+      format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -9999,7 +10009,7 @@ body {
   left: 0px;
   z-index: 998;
   height: 100vh;
-  font-family: "galano_grotesque_alt_demobold", sans-serif;
+  font-family: "Poppins-Medium", sans-serif;
   -webkit-transition: -webkit-transform 0.3s
     cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: transform 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
